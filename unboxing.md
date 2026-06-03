@@ -1,6 +1,6 @@
 # Unboxing the Digilent Basys 3 Board
 
-This is my first log showing the Digilent Basys 3!
+This is my first log showing the Digilent Basys 3! (June 3rd, 2026)
 
 ---
 
