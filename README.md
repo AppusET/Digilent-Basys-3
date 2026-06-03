@@ -34,4 +34,4 @@ This repository serves as my digital engineering log. To build a processor, I ha
 ## Engineering Objectives
 * **Master Verilog:** Progress from basic combinational circuits to complex, clock-driven sequential logic.
 * **Prioritize Simulation:** Utilize testbenches in Vivado to thoroughly verify and debug code behavior before deploying it to physical hardware.
-* **Document the Bugs:** Maintain a transparent "lessons learned" record of hardware errors and logical glitches to highlight my engineering problem-solving process.
+* **Document the Bugs:** Record Hardware Errors
