@@ -1,0 +1,29 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Elliot
+// 
+// Create Date: 06/16/2026 01:34:47 PM
+// Design Name: 
+// Module Name: top
+// Project Name: 
+// Target Devices: Baseys 3
+// Tool Versions: 
+// Description: This is an AND gate. The led turns on only if both switches are on
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module top(
+    input [1:0] sw,
+    output [0:0] led
+    );
+    
+    assign led[0] = sw[1] & sw[0]; 
+endmodule
