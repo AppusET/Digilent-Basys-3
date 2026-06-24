@@ -1,0 +1,29 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Elliot
+// 
+// Create Date: 06/24/2026 11:05:14 AM
+// Design Name: 
+// Module Name: top
+// Project Name: 
+// Target Devices: Baseys 3
+// Tool Versions: 
+// Description: This is an OR gate. The led turns on when either switch 0 or 1 or 2 are on
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module top(
+    input [2:0] sw,
+    output [0:0] led
+    );
+    
+    assign led[0] = sw[2] | sw[1] | sw[0]; 
+endmodule
