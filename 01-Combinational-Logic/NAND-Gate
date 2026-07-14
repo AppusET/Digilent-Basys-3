@@ -1,0 +1,29 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: Elliot
+// 
+// Create Date: 07/14/2026 11:52:39 AM
+// Design Name: 
+// Module Name: top
+// Project Name: 
+// Target Devices: Baseys 3
+// Tool Versions: 
+// Description: This is a Not And gate. The led turns on except when sw[1] and sw[0] are on at the same time.
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module top(
+    input [2:0] sw,
+    output [0:0] led
+    );
+    
+    assign led[0] = ~(sw[1] & sw[0]);
+endmodule
