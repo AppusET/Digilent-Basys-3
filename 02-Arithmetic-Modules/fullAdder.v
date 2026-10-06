@@ -5,7 +5,7 @@
 // 
 // Create Date: 09/23/2026 09:26:21 PM
 // Design Name: 
-// Module Name: Half Adder
+// Module Name: Full Adder
 // Project Name: 
 // Target Devices: Baseys 3
 // Tool Versions: 
